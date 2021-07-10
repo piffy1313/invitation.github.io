@@ -1,0 +1,116 @@
+<!-- This is the Event Invite project from Khan Academy's Intro to HTML/CSS course, focusing on CSS layout. -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+            
+            #outline {
+                border: double 1em;
+                color: #88D2FF;
+                padding: 0.5em;
+                margin: 1em;
+            }
+            
+            .block {
+                border: solid .2em;
+                color: #ff9ff6;
+            }
+            
+            #rsvp {
+                border: solid .3em;
+                color: green;
+                background: red;
+                cursor: grab;
+            }
+            
+            .image {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            #begging {
+                text-decoration: none;
+                text-align: center;
+                
+            }
+            
+            h1 {
+                font: italic 3em serif;
+                text-align: center;
+                color: #0007a4;
+            }
+            
+            h2 {
+                font: italic 1.5em serif;
+                text-align: center;
+                color: black;
+            }
+            
+            h3 {
+                margin-left: 1.75em;
+                color: #0007a4;
+                font-style: underline;
+            }
+            
+            p {
+                color: black;
+                text-align: center;
+                font-family: sans-serif;
+                text-decoration: underline;
+            }
+            
+            li {
+                color: black;
+            }
+            
+        </style>
+    </head>
+    <body>
+    
+    <div id="outline">
+        <div class="block">
+            <h1>Vous êtes invités!</h1>
+            <h2>A Date With Monsieur G. Can</h2>
+        </div>
+        
+        <br>
+        <img class="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Improvised_park_garbage_can.jpg/449px-Improvised_park_garbage_can.jpg" alt="Empty garbage can looking kinda lonely" height="200" >
+        
+        <br>
+        <div class="block">
+            <h3>Date:</h3>
+            <p>Right now</p>
+        </div>
+        
+        <br>
+        <div class="block">
+            <h3>Location:</h3>
+            <p>The curb<p>
+        </div>
+        
+        <br>
+        <div class="block">
+            <h3>Information:</h3>
+            <ul>
+                <li>Food will be available based on previous nights' consumptions. As such, we will be unable to meet any dietary restrictions not already established.</li>
+                <li>Pets are not just welcomed, but encouraged. They need that walk you've been holding off anyways, so might as well take them out as well.</li>
+                <li>Requires ability to lift 10-20 lbs without aid. It looks kind of heavy.</li>
+                <li><strong>No previous experience required, so come on down!</strong></li>
+            </ul>
+        </div>
+        
+        <br>
+        <div id="rsvp">
+            <h2><strong>RSVP NOW</strong></h2>
+        </div>
+        
+        <br>
+        <p id="begging">Seriously just go do it I'm begging you it stinks so much in here and I'm busy doing literally everything else in this house can you please do something for once. Thanks :)</p>
+        
+    </div>
+    </body>
+</html>
